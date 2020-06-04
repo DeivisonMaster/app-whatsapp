@@ -19,6 +19,7 @@ public class WhatsAppMensagem {
 		para_whatsapp_numero	= new PhoneNumber("whatsapp:+99004445566");
 		
 		Message.creator(de_whatsapp_numero, para_whatsapp_numero, mensagem).create();
+		
 	}
 	
 }
